@@ -70,37 +70,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.in-viewport.in_viewport">
-            function <span class="apidocSignatureSpan">in-viewport.</span>in_viewport
-            <span class="apidocSignatureSpan">(elt, params, cb)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.in-viewport.toString">
-            function <span class="apidocSignatureSpan">in-viewport.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.in-viewport.toString">module in-viewport.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.in-viewport.toString.toString">
-            function <span class="apidocSignatureSpan">in-viewport.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -140,75 +109,6 @@
     instances.push(createInViewport(container)) - 1
   ].isInViewport(elt, offset, cb);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.in-viewport.in_viewport" id="apidoc.element.in-viewport.in_viewport">
-        function <span class="apidocSignatureSpan">in-viewport.</span>in_viewport
-        <span class="apidocSignatureSpan">(elt, params, cb)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function inViewport(elt, params, cb) {
-  var opts = {
-    container: global.document.body,
-    offset: 0
-  };
-
-  if (params === undefined || typeof params === &#x27;function&#x27;) {
-    cb = params;
-    params = {};
-  }
-
-  var container = opts.container = params.container || opts.container;
-  var offset = opts.offset = params.offset || opts.offset;
-
-  for (var i = 0; i &#x3c; instances.length; i++) {
-    if (instances[i].container === container) {
-      return instances[i].isInViewport(elt, offset, cb);
-    }
-  }
-
-  return instances[
-    instances.push(createInViewport(container)) - 1
-  ].isInViewport(elt, offset, cb);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.in-viewport.toString" id="apidoc.element.in-viewport.toString">
-        function <span class="apidocSignatureSpan">in-viewport.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.in-viewport.toString" id="apidoc.module.in-viewport.toString">module in-viewport.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.in-viewport.toString.toString" id="apidoc.element.in-viewport.toString.toString">
-        function <span class="apidocSignatureSpan">in-viewport.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
