@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "api documentation for [in-viewport (v3.4.2)](https://github.com/vvo/in-viewport#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-in-viewport.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-in-viewport) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-in-viewport.svg)](https://travis-ci.org/npmdoc/node-npmdoc-in-viewport)",
+    "description": "#### basic api documentation for  [in-viewport (v3.4.2)](https://github.com/vvo/in-viewport#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-in-viewport.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-in-viewport) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-in-viewport.svg)](https://travis-ci.org/npmdoc/node-npmdoc-in-viewport)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "in-viewport": "*",
